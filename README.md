@@ -50,8 +50,16 @@ From the NavigationStack container view, you can traverse a stack of views in a 
 
 Here our target is to create a Navigation Heirarchy through which the user could navigate to various other DetailView as well as MeetingView
 
-## Managing data flow between views(https://developer.apple.com/tutorials/app-dev-training/managing-data-flow-between-views)
+# Managing data flow between views(https://developer.apple.com/tutorials/app-dev-training/managing-data-flow-between-views)
 
 Maintaining multiple copies of information can introduce inconsistencies that lead to bugs in your app. To avoid data inconsistency bugs, use a single source of truth for each data element in your app. Store the element in one location—the source of truth—and any number of views can access that same piece of data.
 
 When you declare a property as a @State, you create a source of truth within your view. The system identifies all elements of a view that depend on the value of a @State property.
+
+A property that you wrap with @Binding shares read and write access with an existing source of truth, like a @State property. A @Binding doesn’t store the data directly. Instead, it creates a two-way connection between an existing source of truth and a view that displays and updates that data. This connection ensures that multiple views associated with a piece of data are in sync.
+
+## Sixth part(https://developer.apple.com/tutorials/app-dev-training/creating-the-edit-view)
+
+## Passing Data as Binding(https://developer.apple.com/tutorials/app-dev-training/passing-data-with-bindings)
+
+In this part we will learn about the 

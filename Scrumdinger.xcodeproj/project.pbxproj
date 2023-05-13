@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40403E342A0D6E2F00FDB6CB /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40403E332A0D6E2F00FDB6CB /* DetailEditView.swift */; };
 		4073A01D2968A7150047D3F5 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4073A01C2968A7150047D3F5 /* ScrumdingerApp.swift */; };
 		4073A01F2968A7150047D3F5 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4073A01E2968A7150047D3F5 /* MeetingView.swift */; };
 		4073A0212968A7160047D3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4073A0202968A7160047D3F5 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40403E332A0D6E2F00FDB6CB /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		4073A0192968A7150047D3F5 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4073A01C2968A7150047D3F5 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		4073A01E2968A7150047D3F5 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				4073A02A2968AF440047D3F5 /* Models */,
 				4073A01C2968A7150047D3F5 /* ScrumdingerApp.swift */,
 				4073A01E2968A7150047D3F5 /* MeetingView.swift */,
+				40403E332A0D6E2F00FDB6CB /* DetailEditView.swift */,
 				4075330C29698EEF000B37C4 /* ScrumsView.swift */,
 				4097D0E829697DD200E534D5 /* TrailingIconLabelStyle.swift */,
 				4073A0312968B2540047D3F5 /* CardView.swift */,
@@ -165,6 +168,7 @@
 			files = (
 				4073A02E2968B1620047D3F5 /* DailyScrum.swift in Sources */,
 				40C366452A0C2A900032DC0F /* DetailView.swift in Sources */,
+				40403E342A0D6E2F00FDB6CB /* DetailEditView.swift in Sources */,
 				4097D0E929697DD200E534D5 /* TrailingIconLabelStyle.swift in Sources */,
 				4073A02C2968AF5B0047D3F5 /* Theme.swift in Sources */,
 				4075330D29698EEF000B37C4 /* ScrumsView.swift in Sources */,
