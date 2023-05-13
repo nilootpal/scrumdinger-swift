@@ -42,7 +42,7 @@ extension DailyScrum {
         }
     }
     
-    static var emptyscrum: DailyScrum {
+    static var emptyScrum: DailyScrum {
         DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
     }
 }

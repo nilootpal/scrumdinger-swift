@@ -62,4 +62,4 @@ A property that you wrap with @Binding shares read and write access with an exis
 
 ## Passing Data as Binding(https://developer.apple.com/tutorials/app-dev-training/passing-data-with-bindings)
 
-In this part we will learn about the 
+In this part we will learn about the data sharing using binders and state properties. We converted various various variables to bindings and state type in order to achieve data sharing accross the navigation hierarchy
